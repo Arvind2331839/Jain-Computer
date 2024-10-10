@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <Head />
       <header>
-        <nav className='flexSB'>
+        <nav className='flexSB ml-[50px]'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <Link to='/'>Home</Link>

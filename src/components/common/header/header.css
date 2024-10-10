@@ -2,7 +2,6 @@
 .head {
   padding: 20px 0;
   color: #fff;
-  /* color: #07887e; */
 }
 .logo h1 {
   font-size: 35px;
@@ -27,7 +26,7 @@ header ul {
   padding: 30px 20px;
 }
 header ul li a {
-  color: #696565;
+  color: #fff;
   font-weight: 500;
   transition: 0.5s;
 }

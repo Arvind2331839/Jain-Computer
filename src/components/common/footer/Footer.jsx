@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer
-      className="bg-neutral-100 text-center text-neutral-600 dark:bg-black dark:text-neutral-200 lg:text-left">
+      className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
@@ -154,7 +154,7 @@ export default function Footer() {
         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required />
     </div> 
     
-    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5  text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 </form>
             
           </div>
@@ -163,10 +163,10 @@ export default function Footer() {
 
       {/* <!--Copyright section--> */}
       <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-        <span>© 2024 Copyright:-</span>
+        <span>© 2024 Copyright:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
-          href="https://jaincomputerinstitute.com/"
+          href="https://tw-elements.com/"
         >JAIN COMPUTER INSTITUTE</a>
       </div>
     </footer>
