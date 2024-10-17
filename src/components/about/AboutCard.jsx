@@ -7,11 +7,10 @@ import Awrapper from "./Awrapper"
 const AboutCard = () => {
   return (
     <>
+    <Awrapper />
       <section className='aboutHome'>
         <div className='container flexSB'>
-          <div className='left row'>
-            <img src='./images/about.webp' alt='' />
-          </div>
+          
           <div className='right row'>
             <Heading subtitle='LEARN ANYTHING' title='Benefits About JCI Learning Expertise' />
             <div className='items'>
@@ -30,9 +29,14 @@ const AboutCard = () => {
               })}
             </div>
           </div>
+
+          <div className='left row'>
+            <img src='./images/about.webp' alt='' />
+          </div>
+
         </div>
       </section>
-      <Awrapper />
+      
     </>
   )
 }

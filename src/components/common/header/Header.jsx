@@ -15,10 +15,10 @@ const Header = () => {
   const navItems = [
     { id: 1, text: 'Home', link: '/' },
     { id: 2, text: 'Courses', link: '/courses' },
-    { id: 3, text: 'Team', link: '/team' },
+    // { id: 3, text: 'Team', link: '/team' },
     { id: 4, text: 'About', link: '/about' },
-    { id: 5, text: 'Pricing', link: '/pricing' },
-    { id: 6, text: 'Journal', link: '/journal' },
+    // { id: 5, text: 'Pricing', link: '/pricing' },
+    // { id: 6, text: 'Journal', link: '/journal' },
     { id: 7, text: 'Contact', link: '/contact' },
   ];
 

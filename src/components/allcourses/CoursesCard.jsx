@@ -49,7 +49,7 @@ import "./courses.css";
           Blogs that are loved by the community. Updated every hour.
         </p>
       </div>
-      <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 gap-2 ">
         {posts.map((items, key) => (
           <article
             className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm"
